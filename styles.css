@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+body {
+    margin: 0px;
+    margin-top: 3.8em;
+}
+
+nav {
+    font-size: 1.5rem ;
+    position: fixed;
+    top: 0px;
+    width: 20%;
+}
+
+
+nav ul  {
+    background-color: darkkhaki;
+    padding: 14px;
+    margin-top: 0px;
+}
+
+nav  li {
+    list-style-type: none;
+    display: block;
+}
+
+nav li a {
+    display: inline-block;
+    padding: 14px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    border: 1px solid white;
+}
+
+nav li a:hover {
+    color: black;
+    background-color: white;
+    border-color: black;
+}
+
+main {
+    margin-left : 22%;
+}
+
+/* styl pro nadpis */
+h1, h2 {
+    font-size: 32pt;
+    color:#098b1d;
+    background-color: rgb(252, 252, 22);
+    /* padding: 60px ;
+    padding-bottom: 1em;
+    margin: 7ex;
+    margin-top: 0;
+    margin-left: 0; */
+    border: solid coral 30px;
+    border-radius: 12px 33px 7px 18px;
+    display: inline-block;
+    width: 12em;
+    height: 3em;
+    overflow: auto;
+}
+
+h2 {
+    border-width: 1px;
+}
+
+.trida {
+    color: darkmagenta;
+    background-color: lightskyblue;
+}
+
+#seznam li .trida {
+    padding: 2ex;
+    background-color: goldenrod;
+}
+
+.posun {
+    position: fixed;
+    margin: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 100;
+    opacity: 0.5;
+}
+
+#kolecko {
+    background-color: mediumseagreen;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
